@@ -24,7 +24,12 @@ translator = Translator()
 languages = {
     'hindi': 'hi',
     'french': 'fr',
-    'german': 'de'
+    'german': 'de',
+    'spanish': 'es',
+    'nepali': 'ne',
+    'bengali': 'bn',
+    'tamil': 'ta',
+    'telugu': 'te'
 }
 
 # Initialize Tkinter window
@@ -62,3 +67,4 @@ result_text.configure(font=('Helvetica', 12))
 
 # Run the Tkinter event loop
 root.mainloop()
+
